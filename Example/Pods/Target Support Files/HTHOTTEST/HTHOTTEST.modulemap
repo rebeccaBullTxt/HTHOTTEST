@@ -1,0 +1,6 @@
+framework module HTHOTTEST {
+  umbrella header "HTHOTTEST-umbrella.h"
+
+  export *
+  module * { export * }
+}

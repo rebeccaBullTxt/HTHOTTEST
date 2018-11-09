@@ -1,0 +1,29 @@
+{
+  "name": "HTHOTTEST",
+  "version": "0.1.0",
+  "summary": "HTHOTTESTHTHOTTEST",
+  "description": "TESTTESTTESTTESTTESTTESTTESTTEST",
+  "homepage": "https://github.com/rebeccaBullTxt/HTHOTTEST",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "rebeccaBullTxt": "rebeccaBull@sina.com"
+  },
+  "source": {
+    "git": "https://github.com/rebeccaBullTxt/HTHOTTEST.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HTHOTTEST/Classes/**/*.{h,m}",
+  "public_header_files": "HTHOTTEST/Classes/**/HTTESTTEST.h",
+  "frameworks": "UIKit",
+  "dependencies": {
+    "AFNetworking": [
+
+    ]
+  }
+}

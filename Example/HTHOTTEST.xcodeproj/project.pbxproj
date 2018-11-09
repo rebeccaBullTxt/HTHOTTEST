@@ -59,12 +59,12 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		74CF41DCD6D9CBA1796A6233 /* HTHOTTEST.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HTHOTTEST.podspec; path = ../HTHOTTEST.podspec; sourceTree = "<group>"; };
+		74CF41DCD6D9CBA1796A6233 /* HTHOTTEST.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HTHOTTEST.podspec; path = ../HTHOTTEST.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B52F839A555BDEEB2DAF0D6E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B52F839A555BDEEB2DAF0D6E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C83BE531FA53E44F10D0B002 /* Pods_HTHOTTEST_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HTHOTTEST_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D96316A165DDF25C42834F2E /* Pods-HTHOTTEST_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTHOTTEST_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HTHOTTEST_Example/Pods-HTHOTTEST_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E6E7FA38A222686550748FDA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E6E7FA38A222686550748FDA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E8968F0463A682EB00DDB569 /* Pods_HTHOTTEST_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HTHOTTEST_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE38072C449A81CAC34EC7F7 /* Pods-HTHOTTEST_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTHOTTEST_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HTHOTTEST_Tests/Pods-HTHOTTEST_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -303,12 +303,14 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-HTHOTTEST_Example/Pods-HTHOTTEST_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/HTHOTTEST/HTHOTTEST.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HTHOTTEST.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
